@@ -1,0 +1,16 @@
+[user]
+	name = Benjamin Wild
+	email = b.w@fu-berlin.de
+[core]
+[color]
+	ui = true
+[core]
+	editor = nvim -f
+	autocrlf = input
+	excludesfile = $HOME/.gitignore
+[alias]
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+[push]
+	default = matching
+[cola]
+	spellcheck = false

@@ -7,7 +7,7 @@
 [core]
 	editor = nvim -f
 	autocrlf = input
-	excludesfile = $HOME/.gitignore
+	excludesfile = ~/.gitignore
 [alias]
 	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 [push]
